@@ -8,10 +8,15 @@ public class ExemploConsumerAndBiConsumer {
 
 	public static void main(String[] args) {
 
-		Consumer<String> functionPrint = System.out::println;
-		Consumer<String> functionPrint2 = x -> System.out.println(x);
-		functionPrint.accept("Luciano");
-		functionPrint2.accept("Ortiz");
+		Consumer<String> consumer1 = System.out::println;
+		Consumer<String> consumer2 = x -> System.out.println(x);
+		consumer1.accept("Luciano");
+		consumer2.accept("Ortiz");
+
+		// Usando metodo default andThen()
+		Consumer<String> combined = consumer1.andThen(consumer2);
+		combined.accept("Luciano");
+		/////////////////////////////////
 
 		var map = new HashMap<String, String>();
 		BiConsumer<String, String> functionToAddInMap = map::put;

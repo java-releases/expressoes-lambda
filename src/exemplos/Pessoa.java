@@ -1,4 +1,4 @@
-package exemplos.funcoesdojava.supplier;
+package exemplos;
 
 public class Pessoa {
 

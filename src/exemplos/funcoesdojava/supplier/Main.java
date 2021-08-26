@@ -2,6 +2,8 @@ package exemplos.funcoesdojava.supplier;
 
 import java.util.function.Supplier;
 
+import exemplos.Pessoa;
+
 public class Main {
 
 	static PessoaFactory pessoaFactory = () -> new Pessoa("Luciano");

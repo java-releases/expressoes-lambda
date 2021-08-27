@@ -2,8 +2,8 @@ package exemplos.funcoesdojava.function;
 
 import java.util.function.Function;
 
-import exemplos.Cachorro;
-import exemplos.Pessoa;
+import exemplos.comum.Cachorro;
+import exemplos.comum.Pessoa;
 
 public class Main {
 

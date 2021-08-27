@@ -1,7 +1,7 @@
 package exemplos.comlambda;
 
-import exemplos.ProcessaArquivo;
-import exemplos.ValidaCpf;
+import exemplos.comum.ProcessaArquivo;
+import exemplos.comum.ValidaCpf;
 
 public class Exemplo01 {
 

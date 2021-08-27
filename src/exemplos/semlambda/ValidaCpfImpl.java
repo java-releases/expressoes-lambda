@@ -1,6 +1,6 @@
 package exemplos.semlambda;
 
-import exemplos.ValidaCpf;
+import exemplos.comum.ValidaCpf;
 
 public class ValidaCpfImpl implements ValidaCpf {
 

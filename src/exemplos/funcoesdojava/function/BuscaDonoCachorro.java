@@ -1,7 +1,7 @@
 package exemplos.funcoesdojava.function;
 
-import exemplos.Cachorro;
-import exemplos.Pessoa;
+import exemplos.comum.Cachorro;
+import exemplos.comum.Pessoa;
 
 @FunctionalInterface
 public interface BuscaDonoCachorro {

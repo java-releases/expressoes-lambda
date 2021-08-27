@@ -1,6 +1,6 @@
 package exemplos.comlambda;
 
-import exemplos.ValidaCpf;
+import exemplos.comum.ValidaCpf;
 
 public class Exemplo03 {
 

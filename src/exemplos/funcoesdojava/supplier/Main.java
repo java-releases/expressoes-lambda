@@ -2,7 +2,7 @@ package exemplos.funcoesdojava.supplier;
 
 import java.util.function.Supplier;
 
-import exemplos.Pessoa;
+import exemplos.comum.Pessoa;
 
 public class Main {
 

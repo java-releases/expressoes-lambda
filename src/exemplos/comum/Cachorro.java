@@ -1,4 +1,4 @@
-package exemplos;
+package exemplos.comum;
 
 public class Cachorro {
 

@@ -33,6 +33,7 @@ public interface Supplier<T> {
 @FunctionalInterface
 public interface Consumer<T> {
     void accept(T t);
+    default Consumer<T> andThen(Consumer<? super T> after) {...}
 }
 ```
 
@@ -43,6 +44,7 @@ public interface Consumer<T> {
 @FunctionalInterface
 public interface BiConsumer<T> {
     void accept(T t, U u);
+    default BiConsumer<T, U> andThen(BiConsumer<? super T, ? super U> after) {...}
 }
 ```
 

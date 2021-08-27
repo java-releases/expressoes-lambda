@@ -105,7 +105,9 @@ public interface BiFunction<T, U, R> {
 *  Interface que recebe 1 parâmetro e produz um resultado. Retorna o mesmo tipo do input.
 */
 @FunctionalInterface
-public interface UnaryOperator<T> extends Function<T, T> {}    
+public interface UnaryOperator<T> extends Function<T, T> {
+     static <T> UnaryOperator<T> identity(){...}
+} 
 ```
 
 ```java
@@ -113,5 +115,8 @@ public interface UnaryOperator<T> extends Function<T, T> {}
 *  Interface que recebe 2 parâmetros e produz um resultado. Retorna o mesmo tipo do input.
 */
 @FunctionalInterface
-public interface BinaryOperator<T> extends BiFunction<T,T,T> {}
+public interface BinaryOperator<T> extends BiFunction<T,T,T> {
+     public static <T> BinaryOperator<T> minBy(Comparator<? super T> comparator) {...}
+     public static <T> BinaryOperator<T> maxBy(Comparator<? super T> comparator) {...}
+}
 ```

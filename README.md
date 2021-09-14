@@ -16,6 +16,7 @@
 - Quando for declarar um corpo com chaves, então deverá usar um `return`;
 - Um método default pode ser declarado como public;
 - Um método private pode ser declarado como static; 
+- Quando uma classe ou interface implements/extends outras 2 ou mais interfaces que tenham o mesmo método default, então esse deverá ser subscrito. Caso contrário, não irá compilar;
 
 ### java.uti.function
 ```java

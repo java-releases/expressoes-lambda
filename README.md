@@ -21,6 +21,9 @@
 - Um método private pode ser declarado como static; 
 - Quando uma classe ou interface implements/extends outras 2 ou mais interfaces que tenham o mesmo método default, então esse deverá ser subscrito. Caso contrário, não irá compilar;
 - Para chamar um método default, deverá: `Interface.super.metodoDesejado()`;
+- Vantagem de usar o método `default`:
+     - Compatibilidade com versões anteriores;
+     - Conveniência em classes implementando a interface;
 
 ### java.uti.function
 ```java

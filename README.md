@@ -12,6 +12,7 @@
 
 ### Regras
 - Quando usar `var`, deverá usar para todos os parâmetros;
+- O tipo reservado `var`, poderá ser usado como nome de variável;
 - Quando for declarar um tipo para o nome de algum parâmetro, então deverá declarar para todos os parâmetros;
 - Quando for declarar um corpo com chaves, então deverá usar um `return`;
 - Um método default pode ser declarado como public;

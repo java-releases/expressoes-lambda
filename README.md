@@ -10,7 +10,9 @@
 - Usar interface funcional, incluindo: Predicate, Consumer, Function e Supplier
 - Usar variações primitivas e binárias do pacote java.util.function
 
-### Regras
+<hr>
+
+### Resumo
 - Quando usar `var`, deverá usar para todos os parâmetros;
 - O tipo reservado `var`, poderá ser usado como nome de variável;
 - Uma variável usada em uma expressão lambda, deverá sempre ser final ou efetivamente final;
@@ -25,7 +27,9 @@
      - Compatibilidade com versões anteriores;
      - Conveniência em classes implementando a interface;
 
-### java.uti.function
+<hr>
+
+> #### java.uti.function
 ```java
 /**
 *  Interface usada para gerar algo, sem passar parâmetros. É frequentemente usada, para construir novos objetos.

@@ -1,6 +1,6 @@
-![](https://github.com/ocpjp-study/local-variable-inference/blob/main/ocpjp.png)
+![](https://github.com/ocpjp-study/expressoes-lambda/blob/main/expressao-lambda.png)
 
-[Preparação para o Exame 1Z0-817](https://education.oracle.com/pt_BR/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
+
 
 ### Tópico: Expressões Lambda
 

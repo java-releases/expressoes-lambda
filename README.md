@@ -1,7 +1,3 @@
-![](https://github.com/ocpjp-study/expressoes-lambda/blob/main/expressao-lambda.png)
-
-
-
 ### Tópico: Expressões Lambda
 
 ### Objetivos
